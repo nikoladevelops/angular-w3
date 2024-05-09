@@ -1,0 +1,88 @@
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.note-creator{
+    padding:30px;
+    background-color: gray;
+    min-height: 180px;
+    max-height: 180px;
+    max-width: 350px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.note-creator-element{
+    padding:5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.error-text{
+    text-align: center;
+    color:darkred;
+}
+
+.btn-holder{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+}
+
+
+.note-viewer{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color: bisque;
+}
+
+.note-viewer-element{
+    padding:30px;
+}
+
+.note-viewer-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.error-element{
+    border:2px solid darkred;
+}
+
+.btn{
+    width:150px;
+    border: 1px solid black;
+}
+
+.create-btn{
+    background-color: green;
+    color:white;
+}
+
+.edit-btn{
+    background-color: yellow;
+    color:black;
+}
+
+.delete-btn{
+    background-color: darkred;
+    color:white;
+}
+
+.reset-btn{
+    background-color: blue;
+    color:white;
+}
+
+
